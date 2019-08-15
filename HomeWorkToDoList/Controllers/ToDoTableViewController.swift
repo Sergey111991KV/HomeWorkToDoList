@@ -143,6 +143,8 @@ class ToDoTableViewController: UITableViewController {
                             multiplier: 1,
                             constant: 200)
                         lastImageView.image = imageView.image
+                        
+                        
                     }
                 }
             }
