@@ -89,11 +89,6 @@ extension ToDoItemTableViewController /*UITableViewDataSource*/{
     
    
     }
-    
-//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-// let key = todo.capitalizesKeys[section]
-//        return key
-//    }
 }
 //MARK: - UITableViewDelegate
 extension ToDoItemTableViewController {
