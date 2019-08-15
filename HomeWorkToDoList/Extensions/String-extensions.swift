@@ -17,9 +17,14 @@ extension String{
         return withSpaces.capitalized 
     }
     var returnKey: String{
-        let withSpaces = reduce(" ") { result, character in
-            character.isUppercase ? "\(result) \(character)" : "\(result)\(character)"
-            
+       let path = self
+        if path.components(separatedBy: ":").count > 0{
+            let r = path.components(separatedBy: ":").first!
+            let s = r.trimmingCharacters(in: .whitespaces)
+            return s
+        }else{
+            return ""
         }
-        return withSpaces.capitalized
-    }}
+    }
+}
+

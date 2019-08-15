@@ -1,4 +1,4 @@
-//
+ //
 //  DateCell.swift
 //  HomeWorkToDoList
 //
@@ -10,15 +10,10 @@ import UIKit
 
 class DateCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    func setDate(_ date: Date){
+        
+        dateLabel.text = date.formattedDate
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

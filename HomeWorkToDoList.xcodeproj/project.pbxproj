@@ -16,11 +16,15 @@
 		1C30329522FE294B00FE4205 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30329422FE294B00FE4205 /* ToDo.swift */; };
 		1C30329922FE2F5200FE4205 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30329822FE2F5200FE4205 /* ToDoTableViewController.swift */; };
 		1C30329B22FE2F7F00FE4205 /* ToDoItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C30329A22FE2F7F00FE4205 /* ToDoItemTableViewController.swift */; };
+		1C308F4D23045A94009140FD /* SectionDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C308F4C23045A94009140FD /* SectionDatePicker.swift */; };
+		1C308F4F23045C29009140FD /* SectionSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C308F4E23045C29009140FD /* SectionSwitch.swift */; };
+		1C308F5323045C9D009140FD /* SectionPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C308F5223045C9D009140FD /* SectionPickerController.swift */; };
+		1C308F5523045D08009140FD /* SectionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C308F5423045D08009140FD /* SectionTextField.swift */; };
+		1C45599A23033F4B00449FE7 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45599923033F4B00449FE7 /* SwitchCell.swift */; };
 		1C8A08BF22FE695600B5CD70 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A08BE22FE695600B5CD70 /* ToDoCell.swift */; };
-		1CF066A02302E7D500E1FDE9 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0669F2302E7D500E1FDE9 /* TextFieldCell.swift */; };
+		1CE820192302EDFD00630E67 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE820182302EDED00630E67 /* TextFieldCell.swift */; };
 		1CF066A22302E7F000E1FDE9 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF066A12302E7F000E1FDE9 /* DateCell.swift */; };
 		1CF066A42302E80B00E1FDE9 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF066A32302E80B00E1FDE9 /* DatePickerCell.swift */; };
-		1CF066A62302E82400E1FDE9 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF066A52302E82400E1FDE9 /* SwitchCell.swift */; };
 		1CF066A82302E83600E1FDE9 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF066A72302E83500E1FDE9 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,11 +40,15 @@
 		1C30329422FE294B00FE4205 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		1C30329822FE2F5200FE4205 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		1C30329A22FE2F7F00FE4205 /* ToDoItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewController.swift; sourceTree = "<group>"; };
+		1C308F4C23045A94009140FD /* SectionDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SectionDatePicker.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/View/SectionDatePicker.swift"; sourceTree = "<group>"; };
+		1C308F4E23045C29009140FD /* SectionSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SectionSwitch.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/View/SectionSwitch.swift"; sourceTree = "<group>"; };
+		1C308F5223045C9D009140FD /* SectionPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SectionPickerController.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/View/SectionPickerController.swift"; sourceTree = "<group>"; };
+		1C308F5423045D08009140FD /* SectionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SectionTextField.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/View/SectionTextField.swift"; sourceTree = "<group>"; };
+		1C45599923033F4B00449FE7 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
 		1C8A08BE22FE695600B5CD70 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
-		1CF0669F2302E7D500E1FDE9 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldCell.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/Cell/TextFieldCell.swift"; sourceTree = "<group>"; };
+		1CE820182302EDED00630E67 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldCell.swift; path = ../TextFieldCell.swift; sourceTree = "<group>"; };
 		1CF066A12302E7F000E1FDE9 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateCell.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/Cell/DateCell.swift"; sourceTree = "<group>"; };
 		1CF066A32302E80B00E1FDE9 /* DatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/Cell/DatePickerCell.swift"; sourceTree = "<group>"; };
-		1CF066A52302E82400E1FDE9 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwitchCell.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/Cell/SwitchCell.swift"; sourceTree = "<group>"; };
 		1CF066A72302E83500E1FDE9 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = "../../../../../../../System/Volumes/Data/Users/sergejkosilov/Library/Autosave Information/HomeWorkToDoList/HomeWorkToDoList/Cell/ImageCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +91,7 @@
 		1C30327722FC8F3500FE4205 /* HomeWorkToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				1C308F4B23045941009140FD /* View */,
 				1C24E7C622FFF98D000096DF /* Extensions */,
 				1C8A08BD22FE692B00B5CD70 /* Cell */,
 				1C30329722FE2D8C00FE4205 /* Controllers */,
@@ -130,15 +139,26 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		1C308F4B23045941009140FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C308F4C23045A94009140FD /* SectionDatePicker.swift */,
+				1C308F4E23045C29009140FD /* SectionSwitch.swift */,
+				1C308F5223045C9D009140FD /* SectionPickerController.swift */,
+				1C308F5423045D08009140FD /* SectionTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1C8A08BD22FE692B00B5CD70 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				1C8A08BE22FE695600B5CD70 /* ToDoCell.swift */,
-				1CF0669F2302E7D500E1FDE9 /* TextFieldCell.swift */,
+				1C45599923033F4B00449FE7 /* SwitchCell.swift */,
+				1CE820182302EDED00630E67 /* TextFieldCell.swift */,
 				1CF066A12302E7F000E1FDE9 /* DateCell.swift */,
 				1CF066A32302E80B00E1FDE9 /* DatePickerCell.swift */,
-				1CF066A52302E82400E1FDE9 /* SwitchCell.swift */,
 				1CF066A72302E83500E1FDE9 /* ImageCell.swift */,
+				1C8A08BE22FE695600B5CD70 /* ToDoCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -221,11 +241,15 @@
 				1CF066A22302E7F000E1FDE9 /* DateCell.swift in Sources */,
 				1CF066A82302E83600E1FDE9 /* ImageCell.swift in Sources */,
 				1C30329922FE2F5200FE4205 /* ToDoTableViewController.swift in Sources */,
+				1CE820192302EDFD00630E67 /* TextFieldCell.swift in Sources */,
 				1C30329522FE294B00FE4205 /* ToDo.swift in Sources */,
+				1C308F4D23045A94009140FD /* SectionDatePicker.swift in Sources */,
+				1C45599A23033F4B00449FE7 /* SwitchCell.swift in Sources */,
 				1C8A08BF22FE695600B5CD70 /* ToDoCell.swift in Sources */,
-				1CF066A02302E7D500E1FDE9 /* TextFieldCell.swift in Sources */,
-				1CF066A62302E82400E1FDE9 /* SwitchCell.swift in Sources */,
+				1C308F5323045C9D009140FD /* SectionPickerController.swift in Sources */,
 				1CF066A42302E80B00E1FDE9 /* DatePickerCell.swift in Sources */,
+				1C308F4F23045C29009140FD /* SectionSwitch.swift in Sources */,
+				1C308F5523045D08009140FD /* SectionTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

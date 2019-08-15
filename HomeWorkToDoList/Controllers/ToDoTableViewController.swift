@@ -78,21 +78,33 @@ class ToDoTableViewController: UITableViewController {
                 }
             }
         } else{
-            for view in stackViewFirst.arrangedSubviews{
-                guard let nameLabel = view as? UILabel else { return }
-                
+            
+            for view in stackViewFirst.arrangedSubviews {
+                if let label = view as? UILabel{
+                    for index in 0..<todo.keys.count{
+                        let key = todo.capitalizesKeys[index]
+                        let value = todo.values[index]
+                        if label.text?.returnKey == key.trimmingCharacters(in: .whitespaces){
+                             print("!!!!!!!!!")
+                            if let valueString = value as? String{
+                                
+                                label.text = "\(key) : \(valueString)"
+                                
+                            }else if let dateValue = value as? Date{
+                               
+                                label.text = "\(key) : \(dateValue.formattedDate)"
+                                
+                                
+                            }else if let boolValue = value as? Bool{
+                                
+                                label.text = "\(key) : \(boolValue ? "✳️" : "⭕️")"
+                               
+                            }
+                        }else{ print(label.text!.count, key.trimmingCharacters(in: .whitespaces).count)}
+                    }
+                  }
+                }
             }
-            for index in 0..<todo.keys.count{
-                let key = todo.capitalizesKeys[index]
-                let value = todo.values[index]
-                if let valueString = value as? String{
-                    let label = UILabel()
-                    label.text = "\(key) : \(valueString)"
-                    stackViewFirst.addArrangedSubview(label)
-                
-            }
-        }
-        }
         if stackViewSecond.arrangedSubviews.count == 0 {
         
             for index in 0..<todo.keys.count{
@@ -114,6 +126,25 @@ class ToDoTableViewController: UITableViewController {
                 
                 }
             }
+        } else{
+            if let lastImageView = stackViewSecond.arrangedSubviews.last as? UIImageView{
+                for index in 0..<todo.keys.count{
+                    let value = todo.values[index]
+                    if let imageValue = value as? UIImage{
+                        let imageView = UIImageView(image: imageValue)
+                        imageView.contentMode = .scaleAspectFit
+                        let heightConstraint = NSLayoutConstraint(
+                            item: imageView ,
+                            attribute: .height,
+                            relatedBy: .equal ,
+                            toItem: nil ,
+                            attribute: .height,
+                            multiplier: 1,
+                            constant: 200)
+                        lastImageView.image = imageView.image
+                    }
+                }
+            }
         }
     }
     
@@ -133,6 +164,8 @@ class ToDoTableViewController: UITableViewController {
         todos[selectedIndex.row] = source.todo
         print(selectedIndex.row)
         tableView.reloadData()
-        tableView.reloadRows(at: [selectedIndex], with: .automatic)
+       // tableView.reloadRows(at: [selectedIndex], with: .automatic)
     }
+        
+    
 }
