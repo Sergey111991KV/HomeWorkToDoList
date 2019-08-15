@@ -22,6 +22,7 @@ class ToDoTableViewController: UITableViewController {
             ToDo(title: "Посадить дерево", image: UIImage(named: "Tree"))
         ]
         bounds = view.bounds.size
+        print("helloy")
         
     }
     

@@ -67,11 +67,33 @@ extension ToDoItemTableViewController /*UITableViewDataSource*/{
         let cell = getCell(indexPath: indexPath, with: value)
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let key = todo.capitalizesKeys[section]
-        return key
+
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+         let key = todo.capitalizesKeys[section]
+        let button = UIButton(type: .system)
+        button.setTitleColor(.black, for: .normal)
+        button.backgroundColor = .lightGray
+        
+        button.setTitle("\(key)", for:  .normal )
+        button.addTarget(self, action: #selector(handleExpendClose ), for: .touchUpInside)
+        return button
     }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 34
+    }
+    
+    
+   @objc func handleExpendClose() {
+    print("hellou!")
+    
+   
+    }
+    
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+// let key = todo.capitalizesKeys[section]
+//        return key
+//    }
 }
 //MARK: - UITableViewDelegate
 extension ToDoItemTableViewController {
